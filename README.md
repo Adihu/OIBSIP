@@ -1,7 +1,16 @@
-# Python Task 2: BMI Calculator
+# Task 3: Random Password Generator
 
 ## Description
-A simple command-line tool built in Python to calculate Body Mass Index (BMI) and categorize health status based on user input.
+A Python command-line tool that generates strong, customizable random passwords based on user preferences for length, numbers, and special characters.
 
-## Tech Stack
-- Python 3
+## Track
+Python Programming
+
+## Features
+- Custom length selection (enforces minimum 8 characters).
+- Optional inclusion of numeric digits and special symbols.
+- Input validation for numeric length inputs.
+
+## How to Run
+```bash
+python password_generator.py
