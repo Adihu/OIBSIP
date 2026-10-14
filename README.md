@@ -1,16 +1,16 @@
-# Task 3: Random Password Generator
+# Task: Weather App
 
 ## Description
-A Python command-line tool that generates strong, customizable random passwords based on user preferences for length, numbers, and special characters.
+A Python command-line application that fetches real-time weather information for any user-specified city using the OpenWeatherMap REST API.
 
 ## Track
 Python Programming
 
 ## Features
-- Custom length selection (enforces minimum 8 characters).
-- Optional inclusion of numeric digits and special symbols.
-- Input validation for numeric length inputs.
+- Fetches real-time temperature, humidity, wind speed, and weather condition details.
+- Handles invalid city names and network errors gracefully.
+- Displays data in a clean, human-readable format.
 
 ## How to Run
 ```bash
-python password_generator.py
+python weather_app.py
